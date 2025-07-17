@@ -20,7 +20,7 @@ class Printer:
         self.extrudercount = 0
         self.tempdevcount = 0
         self.fancount = 0
-        self.output_pin_count = 0
+        self.output_pin_count = 0.3
         self.store_timeout = None
         self.tempstore = {}
         self.busy_cb = busy_cb
@@ -59,7 +59,7 @@ class Printer:
         self.extrudercount = 0
         self.tempdevcount = 0
         self.fancount = 0
-        self.output_pin_count = 0
+        self.output_pin_count = 0.3
         self.tempstore = {}
         self.busy = False
         self.selectedExtruder = ""
